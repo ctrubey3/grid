@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: [first]100px [second] 45px [third]90px [fourth]145px [fifth]150px [sixth]100px [seventh]100px [eight]100px;
+  column-gap: 10px;
+  row-gap: 15px;
+  grid-template-rows: 25px 10px 65px 70px 75px 90px 90px;
+}
+.box1 {
+  background-color: lightskyblue;
+  width: 520px;
+  height: 50px;
+  grid-column-start: first;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.box2 {
+  background-color: mediumpurple;
+  width: 520px;
+  height: 150px;
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.box3 {
+  background-color: forestgreen;
+  width: 250px;
+  height: 75px;
+  grid-column-start: 1;
+  grid-row-start: 6;
+  grid-row-end: 5;
+}
+.box4 {
+  background-color: royalblue;
+  width: 255px;
+  height: 75px;
+  grid-column-start: 4;
+  grid-row-start: 6;
+  grid-row-end: 5;
+}
+.box5 {
+  background-color: darkorange;
+  width: 90px;
+  height: 90px;
+  grid-column-start: 1;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+.box6 {
+  background-color: darkolivegreen;
+  width: 90px;
+  height: 90px;
+  grid-column-start: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+.box7 {
+  background-color: red;
+  width: 250px;
+  height: 90px;
+  grid-column-start: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+.box8 {
+  background-color: yellow;
+  width: 250px;
+  height: 300px;
+  grid-column-start: 1;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+.box9 {
+  background-color: lightgreen;
+  width: 90px;
+  height: 90px;
+  grid-column-start: 4;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+.box10 {
+  background-color: greenyellow;
+  width: 90px;
+  height: 90px;
+  grid-column-start: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+.box11 {
+  background-color: deepskyblue;
+  width: 250px;
+  height: 195px;
+  grid-column-start: 4;
+  grid-row-start: 8;
+  grid-row-end: 8;
+}
+.box12 {
+  background-color: darkslateblue;
+  width: 520px;
+  height: 100px;
+  grid-column-start: 1;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+/*# sourceMappingURL=style.css.map */
